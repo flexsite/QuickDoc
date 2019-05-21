@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Document" max_length="40" name="x_12311_quickdoc_document" type="collection">
+        <element label="Document" max_length="10000" name="document" type="html"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element dependent="source_table" dependent_on_field="source_table" label="Source ID" max_length="32" name="source_id" type="document_id" use_dependent_field="true"/>
+        <element label="Source Table" max_length="80" name="source_table" type="table_name"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Title" max_length="100" name="title" type="string"/>
+        <element label="Version" max_length="40" name="version" type="float"/>
+        <index name="index">
+            <element name="source_id"/>
+        </index>
+    </element>
+</database>
