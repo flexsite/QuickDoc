@@ -4,8 +4,12 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element dependent="source_table" dependent_on_field="source_table" label="Source ID" max_length="32" name="source_id" type="document_id" use_dependent_field="true"/>
         <element label="Source Table" max_length="80" name="source_table" type="table_name"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice/>
+        <element choice="3" default="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" value="1"/>
+                <element inactive_on_update="false" label="Published" value="2"/>
+                <element inactive_on_update="false" label="Retired" value="3"/>
+            </choice>
         </element>
         <element label="Title" max_length="100" name="title" type="string"/>
         <element label="Version" max_length="40" name="version" type="float"/>
