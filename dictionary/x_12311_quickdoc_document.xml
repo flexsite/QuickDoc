@@ -12,7 +12,7 @@
             </choice>
         </element>
         <element label="Title" max_length="100" name="title" type="string"/>
-        <element label="Version" max_length="40" name="version" type="float"/>
+        <element label="Version" max_length="40" name="version" read_only="true" type="float"/>
         <index name="index">
             <element name="source_id"/>
         </index>

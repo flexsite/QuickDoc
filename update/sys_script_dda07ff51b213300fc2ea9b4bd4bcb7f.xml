@@ -34,11 +34,11 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	//check to see if a version number has already been added
-	if (isNull(current.version) || current.version == '') {
+	if (current.version == '') {
 		current.version = 1.0;
 		current.update();
 	} else {
-		current.version = parseFloat(current.version + 1);
+		current.version = parseFloat(current.version) + 1;
 		current.update();
 	}
 
@@ -49,7 +49,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dda07ff51b213300fc2ea9b4bd4bcb7f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Check and Update Version Number</sys_name>
         <sys_overrides/>
         <sys_package display_value="QuickDoc" source="x_12311_quickdoc">3701e6991b213300fc2ea9b4bd4bcbff</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="QuickDoc">3701e6991b213300fc2ea9b4bd4bcbff</sys_scope>
         <sys_update_name>sys_script_dda07ff51b213300fc2ea9b4bd4bcb7f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-22 08:27:09</sys_updated_on>
+        <sys_updated_on>2019-05-22 08:38:40</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
