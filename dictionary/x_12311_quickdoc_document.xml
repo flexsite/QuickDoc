@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" label="Document" max_length="40" name="x_12311_quickdoc_document" type="collection">
-        <element label="Document" max_length="10000" name="document" type="html"/>
+        <element label="Document" max_length="10000" name="document" type="translated_html"/>
+        <element label="Knowledge article" max_length="32" name="knowledge_article" reference="kb_knowledge" type="reference"/>
+        <element label="Conversion notes" max_length="1000" name="notes" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element dependent="source_table" dependent_on_field="source_table" label="Source ID" max_length="32" name="source_id" type="document_id" use_dependent_field="true"/>
         <element label="Source Table" max_length="80" name="source_table" type="table_name"/>
         <element choice="3" default="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Draft" value="1"/>
-                <element inactive_on_update="false" label="Published" value="2"/>
-                <element inactive_on_update="false" label="Retired" value="3"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Published" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Retired" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Converted" sequence="3" value="4"/>
             </choice>
         </element>
         <element label="Title" max_length="100" name="title" type="string"/>
         <element label="Version" max_length="40" name="version" read_only="true" type="float"/>
         <index name="index">
+            <element name="knowledge_article"/>
+        </index>
+        <index name="index2">
             <element name="source_id"/>
         </index>
     </element>

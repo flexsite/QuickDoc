@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Creates a new Knowledge Article from the QuickDoc, referencing the newly created KA in the QuickDoc</description>
+        <internal_name>create_knowledge_article</internal_name>
+        <label_cache>[{"name":"Updated_1.current.document","label":"Trigger➛Document Record➛Document","reference":"","reference_display":"Document","type":"translated_html","base_type":"translated_html","parent_table_name":"x_12311_quickdoc_document","column_name":"document"},{"name":"64c90039-acd7-48d7-bb96-df15e4d52fa8.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"64c90039-acd7-48d7-bb96-df15e4d52fa8.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Updated_1.current","label":"Trigger➛Document Record","reference":"x_12311_quickdoc_document","reference_display":"Document","type":"reference","base_type":"reference"},{"name":"Updated_1.current.sys_created_by","label":"Trigger➛Document Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_12311_quickdoc_document","column_name":"sys_created_by"},{"name":"Updated_1.current.title","label":"Trigger➛Document Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_12311_quickdoc_document","column_name":"title"}]</label_cache>
+        <master>true</master>
+        <name>Create Knowledge Article</name>
+        <outputs/>
+        <parent_flow display_value="Create Knowledge Article">830a459c1bf13300fc2ea9b4bd4bcb11</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-03 12:12:21</sys_created_on>
+        <sys_id>816812711bf13300fc2ea9b4bd4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Knowledge Article</sys_name>
+        <sys_package display_value="QuickDoc" source="x_12311_quickdoc">3701e6991b213300fc2ea9b4bd4bcbff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QuickDoc">3701e6991b213300fc2ea9b4bd4bcbff</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_816812711bf13300fc2ea9b4bd4bcbba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-03 12:12:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=816812711bf13300fc2ea9b4bd4bcbba"/>
+    <sys_variable_value action="delete_multiple" query="document_key=816812711bf13300fc2ea9b4bd4bcbba"/>
+</record_update>

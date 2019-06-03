@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3eca0d901b353300fc2ea9b4bd4bcb34" sys_domain="global" table="x_12311_quickdoc_document" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-29 14:42:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32ca0d901b353300fc2ea9b4bd4bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_12311_quickdoc_document" name="x_12311_quickdoc_document" sys_domain="global" view="Default view">3eca0d901b353300fc2ea9b4bd4bcb34</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_12311_quickdoc_document" sys_domain="global" view="Default view">3ad4eb611be13300fc2ea9b4bd4bcb82</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-29 14:42:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-29 14:42:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6ca0d901b353300fc2ea9b4bd4bcbd9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_12311_quickdoc_document" name="x_12311_quickdoc_document" sys_domain="global" view="Default view">3eca0d901b353300fc2ea9b4bd4bcb34</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_12311_quickdoc_document" sys_domain="global" view="Default view">7aca0d901b353300fc2ea9b4bd4bcb33</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-29 14:42:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_12311_quickdoc_document</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-29 14:42:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3eca0d901b353300fc2ea9b4bd4bcb34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_12311_quickdoc_document</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="QuickDoc" source="x_12311_quickdoc">3701e6991b213300fc2ea9b4bd4bcbff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QuickDoc">3701e6991b213300fc2ea9b4bd4bcbff</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3eca0d901b353300fc2ea9b4bd4bcb34</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-29 14:42:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
