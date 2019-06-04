@@ -4,7 +4,7 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Creates a new Knowledge Article using the information from the QuickDoc</comment>
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create Knowledge Article">830a459c1bf13300fc2ea9b4bd4bcb11</flow>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-29 14:45:30</sys_created_on>
         <sys_id>3f7b45d01b353300fc2ea9b4bd4bcba2</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package display_value="QuickDoc" source="x_12311_quickdoc">3701e6991b213300fc2ea9b4bd4bcbff</sys_package>
         <sys_policy/>
         <sys_scope display_value="QuickDoc">3701e6991b213300fc2ea9b4bd4bcbff</sys_scope>
         <sys_update_name>sys_hub_action_instance_3f7b45d01b353300fc2ea9b4bd4bcba2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-03 12:12:23</sys_updated_on>
+        <sys_updated_on>2019-06-04 10:52:37</sys_updated_on>
         <ui_id>64c90039-acd7-48d7-bb96-df15e4d52fa8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3f7b45d01b353300fc2ea9b4bd4bcba2"/>
